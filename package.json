@@ -1,0 +1,22 @@
+{
+  "name": "mocha-chai-rest-api-demo",
+  "version": "1.0.0",
+  "description": "Test Rest API's using mocha, chai, chai-http and chai-json-schema",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Rupesh More <“rupesh.more@gmail.com”>",
+  "license": "ISC",
+  "keywords": [
+    "mocha", 
+    "chai", 
+    "rest-api-automation", 
+    "schema-validation"
+  ],
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^7.1.2"
+  }
+}

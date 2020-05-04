@@ -1,0 +1,26 @@
+{
+    "/get": {
+        "200": {
+            "type": "object",
+            "properties": {
+                "args": {
+                    "type": "object"
+                },
+                "headers": {
+                    "type": "object"
+                },
+                "origin": {
+                    "type": "string",
+                    "example": "14.137.211.111"
+                },
+                "url": {
+                    "type": "string",
+                    "example": "httpbin.org"
+                }
+            }
+        },
+        "404": {
+        }
+    }
+
+}
